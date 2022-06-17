@@ -5,6 +5,14 @@
 ---
 # Analysis and Challenges: 
 * Throughout this project we utlized **Pivot Tables**, **Pivot Charts** and, **COUNTIFS** to better present our data. At times creating the perfect COUNTIF formula for the "Outcome Based on Goals" became a tricky task. Although after throurough dedication and trial and error, this tool became very very helpful to learn. 
+
+*For EXAMPLE: For this chart created below, we utilized **COUNTIFS** forumulas to create this data. 
+
+*For this Code used below we figured out how many successful plays goals in beteween the ranges of $1000 and $4999. 
+
+*Example Code **COUNTIFS* =COUNTIFS(Kickstarter!$F:$F,"=successful",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$R:$R,"=plays")
+
+![Outcomes vs Goals](https://github.com/ABorden23/Kickstarter-Analysis-Data-Analytics-Project/blob/main/Resources/Outcomes_vs_Goals.png)
 ---
 # Results: Answer the following questions in complete and coherent sentences.
 * What are two conclusions you can draw about the Theater Outcomes by Launch Date? After reviewing the Theater Outcomes by Launch Date Data, the first conclusion made from the data is that the top 3 months of Successful as well as Failed Theater Launch dates are during the summer months of: May, June, and July.  The other conclusion made is that the most canceled Theatre launches were dated in January. 
