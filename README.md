@@ -21,7 +21,7 @@ The chart above, utilized **COUNTIFS** forumulas to create this data, which tran
 
  The chart above shows the results of successful, failed, and canceled theatre launches based on the month. 
  
- Tools Used: Pivot Tables and Pivot Charts
+ Tools Used: Pivot Tables and Pivot Charts and VLOOKUPS
  
  
 ---
